@@ -5,6 +5,9 @@ import './App.css'
 // Minhas imagens importadas:
 import Cidade from "./assets/city.jpg";
 import ManageData01 from './components/ManageData01';
+import ListRender01 from './components/ListRender01';
+import ConditionalRender from './components/ConditionalRender';
+import ConditionalRender01 from './components/ConditionalRender01';
 
 
 function App() {
@@ -22,7 +25,18 @@ function App() {
           {/* Imagem em assets */}
           <img src={Cidade} alt="Imagem de uma cidade" />
         </div>
-          <ManageData01 />
+        <div>
+          <ManageData01 />          
+        </div>
+        <div>
+          <ListRender01 />
+        </div>
+        <div>
+          <ConditionalRender />
+        </div>
+        <div>
+          <ConditionalRender01 />
+        </div>
       </div>
     </>
   )
