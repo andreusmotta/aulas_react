@@ -12,7 +12,8 @@ function App() {
     <div>
       <h1>Seção 05</h1>
       <div>
-        <MeuForm01 />
+        <h2>Forms</h2>
+        <MeuForm01 usuario={{nome: "Fulano", email: "fulano@gmail.com", desc: "Eu sou Artista", func: "editor"}}/>        
       </div>
     </div>
 
