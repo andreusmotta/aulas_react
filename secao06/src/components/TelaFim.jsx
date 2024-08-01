@@ -1,8 +1,11 @@
 import React from 'react'
 
-const TelaFim = () => {
+const TelaFim = ({tentarNovamente}) => {
   return (
-    <div>TelaFim</div>
+    <div>
+      <h1>Fim de jogo</h1>
+      <button onClick={tentarNovamente}>Jogar novamente</button>
+    </div>
   )
 }
 
