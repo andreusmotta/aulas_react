@@ -1,19 +1,49 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Camisa",
-        "price": 59.9
-      },
-      {
-        "id": 2,
-        "name": "Calça vermelha",
-        "price": 90
-      },
-      {
-        "id": 3,
-        "name": "Boné aba reta",
-        "price": 29.9
-      }
-    ]
-  }
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camisa",
+      "preço": 59.9
+    },
+    {
+      "id": 2,
+      "nome": "Calça vermelha",
+      "preço": 90
+    },
+    {
+      "id": 3,
+      "nome": "Boné aba reta",
+      "preço": 29.9
+    },
+    {
+      "id": "2980",
+      "nome": "teste",
+      "preço": "123"
+    },
+    {
+      "id": "22bf",
+      "nome": "teste",
+      "preço": "123"
+    },
+    {
+      "id": "a166",
+      "nome": "Capa de chuva",
+      "preço": "50.5"
+    },
+    {
+      "id": "278c",
+      "nome": "Teclado",
+      "preço": "110"
+    },
+    {
+      "id": "273b",
+      "nome": "Mouse",
+      "preço": "52.50"
+    },
+    {
+      "id": "5a3e",
+      "nome": "Caneca",
+      "preço": "15.75"
+    }
+  ]
+}
