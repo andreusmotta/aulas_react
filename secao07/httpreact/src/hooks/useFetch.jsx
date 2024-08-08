@@ -9,6 +9,12 @@ export const useFetch = (url) => {
     const [method, setMethod] = useState(null);
     const [chamaFetch, setChamaFetch] = useState(false);
 
+    // 7  - Tratando erros:
+    const [erro, setErro] = useState(null);
+
+    // 6 - "Carregando" (loading):
+    const [carregando, setCarregando] = useState(false);
+
     const configHttp = (dados, method) => {
         if (method === "POST") {
             setConfig({
@@ -25,13 +31,23 @@ export const useFetch = (url) => {
 
     useEffect(() => {
         const fetchDados = async () => {
-            const res = await fetch(url);
-            const json = await res.json();
 
-            setDados(json);
+            setCarregando(true); //  Colocando true no "carregando" antes de iniciar o carregamento de dados, e no final voltado ele pro false, quando ele termina:
+
+            try {
+                const res = await fetch(url);
+                const json = await res.json();
+    
+                setDados(json);
+            } catch (erro) {
+                console.log(erro.message);
+                setErro("Houve um erro ao carregar os dados.");
+            }
+
+            setCarregando(false);
         };
 
-        fetchDados();
+        fetchDados();        
     }, [url, chamaFetch]);
 
     // 5 - Refatorando POST
@@ -50,5 +66,5 @@ export const useFetch = (url) => {
 
     }, [config, method, url]);
 
-    return { dados, configHttp };
+    return { dados, configHttp, carregando, erro };
 };
