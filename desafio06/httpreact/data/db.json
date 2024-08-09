@@ -1,0 +1,64 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Camisa",
+      "preço": 59.9
+    },
+    {
+      "id": "2",
+      "nome": "Calça vermelha",
+      "preço": 90
+    },
+    {
+      "id": "3",
+      "nome": "Boné aba reta",
+      "preço": 29.9
+    },
+    {
+      "id": "a166",
+      "nome": "Capa de chuva",
+      "preço": "50.5"
+    },
+    {
+      "id": "278c",
+      "nome": "Teclado",
+      "preço": "110"
+    },
+    {
+      "id": "273b",
+      "nome": "Mouse",
+      "preço": "52.50"
+    },
+    {
+      "id": "5a3e",
+      "nome": "Caneca",
+      "preço": "15.75"
+    },
+    {
+      "id": "b049",
+      "nome": "Suporte de monitor",
+      "preço": "120"
+    },
+    {
+      "id": "a3f0",
+      "nome": "Suporte de microfone",
+      "preço": "60"
+    },
+    {
+      "id": "e305",
+      "nome": "Suporte de microfone",
+      "preço": "60"
+    },
+    {
+      "id": "7298",
+      "nome": "Fone de ouvido",
+      "preço": "80"
+    },
+    {
+      "id": "1451",
+      "nome": "Fone de ouvido",
+      "preço": "80"
+    }
+  ]
+}
